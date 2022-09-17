@@ -1,0 +1,74 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980287,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 213,
+            "battery": 4.08,
+            "humidity": 47.15,
+            "latitude": 50.882371716640705,
+            "location": "50.882371716640705, -0.20842911055262903",
+            "longitude": -0.20842911055262903,
+            "minutes_lost": 0,
+            "pressure": 100663,
+            "sats": 11,
+            "speed": 8.7,
+            "status": "GPS",
+            "temperature": 30.06,
+            "uptime": 7,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "1C000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 15,
+    "hotspots": [
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 10378,
+            "id": "11w2ou1QrfHf5MMXpLfKcrBgctPFNC7GeWLufSpQhf9apJF9mKe",
+            "lat": 50.93269187641593,
+            "long": -0.17625271849135468,
+            "name": "narrow-alabaster-shetland",
+            "reported_at": 1657446853528,
+            "rssi": -124.0,
+            "snr": -4.800000190734863,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yF20f9oOANUO0AsABwAAC74BiTcSawAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QBwAAEgADwACrTx3D6oo1ErCi0mCrME3W1DfGd3y60jrJMMbyg==",
+    "replay": false,
+    "reported_at": 1657446853528,
+    "type": "uplink",
+    "uuid": "087ee13e-03ca-4d4c-a26c-9c2b7b84dd40"
+}

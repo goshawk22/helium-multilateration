@@ -1,0 +1,74 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980163,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 0,
+            "battery": 4.43,
+            "humidity": 0,
+            "last_latitude": 50.9644902327353,
+            "last_location": "50.9644902327353, -0.08659244099811758",
+            "last_longitude": -0.08659244099811758,
+            "minutes_lost": 2,
+            "pressure": 0,
+            "sats": 0,
+            "speed": 0,
+            "status": "LOST GPS",
+            "temperature": 0,
+            "uptime": 115,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "1C000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 230,
+    "hotspots": [
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 593,
+            "id": "11rDNbofUb5WNfy5h63MGMx8fVx568RSWTziT7coekX5rsoaCqS",
+            "lat": 50.964971763684844,
+            "long": -0.08287250394690128,
+            "name": "mythical-jade-walrus",
+            "reported_at": 1657453294364,
+            "rssi": -103.0,
+            "snr": 10.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yHuaf/A8AAAA8wAAcwACAAAAAAAAAAAA",
+    "payload_size": 24,
+    "port": 6,
+    "raw_packet": "QBwAAEgA5gAGhvS6vgRgiBSVZdw3t50c3ahQiIGbVFYLiGxSPw==",
+    "replay": false,
+    "reported_at": 1657453294364,
+    "type": "uplink",
+    "uuid": "d54e0008-93b4-48df-aca1-67fa85e3cb4f"
+}

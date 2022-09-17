@@ -1,0 +1,88 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980569,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 214,
+            "battery": 4.09,
+            "humidity": 49.16,
+            "latitude": 50.88526850254945,
+            "location": "50.88526850254945, -0.21272064523225254",
+            "longitude": -0.21272064523225254,
+            "minutes_lost": 0,
+            "pressure": 100565,
+            "sats": 10,
+            "speed": 0,
+            "status": "GPS",
+            "temperature": 27.6,
+            "uptime": 2,
+            "uv": 53
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "D5000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 5,
+    "hotspots": [
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 444,
+            "id": "112iD9yGaXspZuPLsQRd4i9tcLoXsXYSJdAiX3rC3ubBPRhD9Nt2",
+            "lat": 51.009660544699,
+            "long": -0.45706981526654106,
+            "name": "wide-cyan-chicken",
+            "reported_at": 1657446004063,
+            "rssi": -122.0,
+            "snr": -6.0,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 682,
+            "id": "11kAWhmmNt3x2wWghXXrS2bTGv7SCEF6VBc8CKCUwvTidHUPs6",
+            "lat": 50.943774891905726,
+            "long": -0.24381107694463108,
+            "name": "sour-candy-armadillo",
+            "reported_at": 1657446004077,
+            "rssi": -115.0,
+            "snr": 2.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yF7Cf9lGANYA0QoAAgAACsgBiNUTNAA1",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QNUAAEgABQACXxBO7KwqqQpSpW/Ec6abdz2rOchQLsx3aZyL9Q==",
+    "replay": false,
+    "reported_at": 1657446004063,
+    "type": "uplink",
+    "uuid": "71b09a48-c397-4f03-9bf2-71cc3295eff7"
+}

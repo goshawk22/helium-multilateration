@@ -1,0 +1,88 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980095,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 59,
+            "battery": 4.45,
+            "humidity": 0,
+            "latitude": 50.963202772331414,
+            "location": "50.963202772331414, -0.07539153548430022",
+            "longitude": -0.07539153548430022,
+            "minutes_lost": 0,
+            "pressure": 0,
+            "sats": 6,
+            "speed": 11.81,
+            "status": "GPS",
+            "temperature": 0,
+            "uptime": 13,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0A000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 25,
+    "hotspots": [
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 643,
+            "id": "112ZTxQGkb76HQriUCQGqYV9yqot6t7txBc3pkKArTYAJs5S1VPk",
+            "lat": 50.98215358861915,
+            "long": -0.09821259513001158,
+            "name": "steep-gingham-seal",
+            "reported_at": 1658036382327,
+            "rssi": -124.0,
+            "snr": -5.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 489,
+            "id": "11rDNbofUb5WNfy5h63MGMx8fVx568RSWTziT7coekX5rsoaCqS",
+            "lat": 50.964971763684844,
+            "long": -0.08287250394690128,
+            "name": "mythical-jade-walrus",
+            "reported_at": 1658036382347,
+            "rssi": -113.0,
+            "snr": 2.799999952316284,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yHsif/JGADsT9QYADQAAAAAAAAAAAAAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QAoAAEgAGQACf8YdqWce+RFefn/69kVutx+SKJLYgAXXW3cvAg==",
+    "replay": false,
+    "reported_at": 1658036382327,
+    "type": "uplink",
+    "uuid": "f3f4ba60-67c3-4837-a8f4-39885db79e24"
+}

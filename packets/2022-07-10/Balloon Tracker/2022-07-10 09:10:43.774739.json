@@ -1,0 +1,102 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980781,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 212,
+            "battery": 4.1,
+            "humidity": 39.61,
+            "latitude": 50.89026814045121,
+            "location": "50.89026814045121, -0.1816070188049821",
+            "longitude": -0.1816070188049821,
+            "minutes_lost": 0,
+            "pressure": 100613,
+            "sats": 7,
+            "speed": 6.84,
+            "status": "GPS",
+            "temperature": 36.74,
+            "uptime": 46,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "D0000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 89,
+    "hotspots": [
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 451,
+            "id": "112rkS9zd9RWyVHYYBJECDVhXLmZVG99S9ebpKguoEwhDLSKWQ4i",
+            "lat": 50.860389904141485,
+            "long": -0.13616785734524742,
+            "name": "gorgeous-ginger-porpoise",
+            "reported_at": 1657444241255,
+            "rssi": -122.0,
+            "snr": -7.0,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 514,
+            "id": "112ox1hp58qhP8zTDWnpVUApGCBuStBEe28QnZHH6fiNjaJzx8St",
+            "lat": 50.85841377894047,
+            "long": -0.13978722025479035,
+            "name": "curved-cream-chicken",
+            "reported_at": 1657444241269,
+            "rssi": -107.0,
+            "snr": 0.20000000298023224,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 526,
+            "id": "11MgKYtnLzuyTUFByUgoZr7daLvsYexEQ5TcdMTRNGCeWU7mMGc",
+            "lat": 50.864542588077285,
+            "long": -0.12926077962477545,
+            "name": "zany-lemon-elephant",
+            "reported_at": 1657444241328,
+            "rssi": -108.0,
+            "snr": 3.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yGCUf97wANQL0gcALgAADloBiQUPeQAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QNAAAEgAWQAC2jXlQnYDygiDfxmLYLaAr0IlQYSRJEPkz9DKUQ==",
+    "replay": false,
+    "reported_at": 1657444241255,
+    "type": "uplink",
+    "uuid": "0fe24f3a-7c1b-4135-ac96-ea3df74b9465"
+}

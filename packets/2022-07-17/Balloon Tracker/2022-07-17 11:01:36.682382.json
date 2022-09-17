@@ -1,0 +1,102 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 979268,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 0,
+            "battery": 3.94,
+            "humidity": 55.13,
+            "latitude": 50.775212095690506,
+            "location": "50.775212095690506, 0.2875220946980903",
+            "longitude": 0.2875220946980903,
+            "minutes_lost": 0,
+            "pressure": 104277,
+            "sats": 7,
+            "speed": 26.72,
+            "status": "GPS",
+            "temperature": 29.81,
+            "uptime": 81,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0E000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 162,
+    "hotspots": [
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 439,
+            "id": "112M3Mp8CDaWJvcFj1tYQJDevjRUsug68KTLgUoa7eveLseRvyTp",
+            "lat": 50.77176836975912,
+            "long": 0.2953283111983449,
+            "name": "blunt-glass-weasel",
+            "reported_at": 1658055693601,
+            "rssi": -122.0,
+            "snr": -7.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 518,
+            "id": "112hu8tTiRZG19SdVTvDFL6RhFm6Z4PMQn8jvTMe7Qc65Mjm98kz",
+            "lat": 50.78167346115187,
+            "long": 0.3120218359375835,
+            "name": "orbiting-orange-ostrich",
+            "reported_at": 1658055693630,
+            "rssi": -123.0,
+            "snr": -6.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 472,
+            "id": "11xNGx1xYRwUExeaxK1RH5bdaKgPhb6UaWDgUXhNsUExubbP8FW",
+            "lat": 50.77414826445896,
+            "long": 0.29162673879442774,
+            "name": "powerful-ceramic-troll",
+            "reported_at": 1658055693643,
+            "rssi": -108.0,
+            "snr": 3.799999952316284,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yDawgDRXAAArwgcAUQAAC6UBl1UViQAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QA4AAEgAogACk9FqDErc1QnYZxULB0TpvPJGqOxpae/icuHYlA==",
+    "replay": false,
+    "reported_at": 1658055693601,
+    "type": "uplink",
+    "uuid": "34727e4c-5684-4916-aa4e-f80d640bde1f"
+}

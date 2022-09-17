@@ -1,0 +1,88 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980810,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 174,
+            "battery": 4.1,
+            "humidity": 42.49,
+            "latitude": 50.892918163115866,
+            "location": "50.892918163115866, -0.1736891373210483",
+            "longitude": -0.1736891373210483,
+            "minutes_lost": 0,
+            "pressure": 101293,
+            "sats": 6,
+            "speed": 4.35,
+            "status": "GPS",
+            "temperature": 35.14,
+            "uptime": 42,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "D0000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 80,
+    "hotspots": [
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 1507,
+            "id": "11MgKYtnLzuyTUFByUgoZr7daLvsYexEQ5TcdMTRNGCeWU7mMGc",
+            "lat": 50.864542588077285,
+            "long": -0.12926077962477545,
+            "name": "zany-lemon-elephant",
+            "reported_at": 1657443972371,
+            "rssi": -118.0,
+            "snr": -3.200000047683716,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 1648,
+            "id": "11uwNnsJf3TpVkwQPSyY6jZKQfBvP8FxCwSjXB4fzmZ864AHkY4",
+            "lat": 50.86415715040982,
+            "long": -0.12280108041390612,
+            "name": "special-topaz-dinosaur",
+            "reported_at": 1657443972530,
+            "rssi": -114.0,
+            "snr": -4.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yGGLf+BhAK4H0gYAKgAADboBi60QmQAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QNAAAEgAUAACaKVK4XALIP9g6clD8AYlO8grB1WYOPk9BBS//w==",
+    "replay": false,
+    "reported_at": 1657443972371,
+    "type": "uplink",
+    "uuid": "8eeb88f2-033c-47df-baeb-df32ae2c66aa"
+}

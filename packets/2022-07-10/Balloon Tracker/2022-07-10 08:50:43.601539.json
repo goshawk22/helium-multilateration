@@ -1,0 +1,88 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980818,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 44,
+            "battery": 4.12,
+            "humidity": 30.75,
+            "latitude": 50.90630775131629,
+            "location": "50.90630775131629, -0.15761733994588667",
+            "longitude": -0.15761733994588667,
+            "minutes_lost": 0,
+            "pressure": 101606,
+            "sats": 6,
+            "speed": 0.62,
+            "status": "GPS",
+            "temperature": 33.95,
+            "uptime": 26,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "D0000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 49,
+    "hotspots": [
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 635,
+            "id": "1122TdXscXgost2QHm6xHY4vwPUMUYAVTfRmVvJNfKq42JG5qqL7",
+            "lat": 50.961522002443914,
+            "long": -0.14091268948553248,
+            "name": "festive-sage-starfish",
+            "reported_at": 1657443040931,
+            "rssi": -120.0,
+            "snr": -6.800000190734863,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 434,
+            "id": "11UBP61hqVgpzyYradzBF4KvsMQpk1QZaem15CUXWvmWoePdK44",
+            "lat": 50.95869545670643,
+            "long": -0.13870846536441692,
+            "name": "shiny-cornflower-jaguar",
+            "reported_at": 1657443041096,
+            "rssi": -107.0,
+            "snr": 1.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yGZrf+NOACwB1AYAGgAADUMBjOYMAwAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QNAAAEgAMQAC1k7HyHNfWt9WSDTHgU3TRcQcEN7UeQQcUZ6gJQ==",
+    "replay": false,
+    "reported_at": 1657443040931,
+    "type": "uplink",
+    "uuid": "e99d5c79-ef6d-4518-a733-0956887f8c9f"
+}

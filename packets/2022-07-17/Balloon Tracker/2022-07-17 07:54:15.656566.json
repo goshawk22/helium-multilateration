@@ -1,0 +1,102 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980010,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 70,
+            "battery": 4.45,
+            "humidity": 0,
+            "latitude": 50.826968003926766,
+            "location": "50.826968003926766, 0.038205387485334086",
+            "longitude": 0.038205387485334086,
+            "minutes_lost": 0,
+            "pressure": 0,
+            "sats": 9,
+            "speed": 4.97,
+            "status": "GPS",
+            "temperature": 0,
+            "uptime": 147,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0A000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 294,
+    "hotspots": [
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 726,
+            "id": "11YNDfhBtRNgL4Pnt1Z5SmBrnuEFg3o8mwebkXmHgkbU6N2vLHc",
+            "lat": 50.880522975423474,
+            "long": -0.00915001390946286,
+            "name": "short-ash-vulture",
+            "reported_at": 1658044452618,
+            "rssi": -110.0,
+            "snr": 4.800000190734863,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 490,
+            "id": "112LxdEgnvEeh3VoDsL1d4LootfZ1KtY12hkejgDKSUh4tDkUwNP",
+            "lat": 50.876243050229945,
+            "long": -0.011081092758354096,
+            "name": "digital-strawberry-lynx",
+            "reported_at": 1658044452620,
+            "rssi": -106.0,
+            "snr": 8.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 648,
+            "id": "112FXjkLdzXTB2B1FphBh5iHYevdqYBhpgWyGfcBZ2A2iW5XZGvU",
+            "lat": 50.87463200351457,
+            "long": 0.004945410002064679,
+            "name": "sparkly-daisy-seal",
+            "reported_at": 1658044452638,
+            "rssi": -129.0,
+            "snr": -9.0,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yEmIgAb0AEYI9QkAkwAAAAAAAAAAAAAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QAoAAEgAJgECYfq6MsBN70ov3Oc2osXhDsDN85F11wAf+RaU+Q==",
+    "replay": false,
+    "reported_at": 1658044452618,
+    "type": "uplink",
+    "uuid": "c0a218d3-7f89-47eb-a865-8e01a5b26774"
+}

@@ -1,0 +1,88 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 979393,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 25,
+            "battery": 3.95,
+            "humidity": 58.67,
+            "latitude": 50.769182489465635,
+            "location": "50.769182489465635, 0.28061272386389646",
+            "longitude": 0.28061272386389646,
+            "minutes_lost": 0,
+            "pressure": 105111,
+            "sats": 8,
+            "speed": 1.86,
+            "status": "GPS",
+            "temperature": 32.72,
+            "uptime": 59,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0E000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 119,
+    "hotspots": [
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 489,
+            "id": "11xNGx1xYRwUExeaxK1RH5bdaKgPhb6UaWDgUXhNsUExubbP8FW",
+            "lat": 50.77414826445896,
+            "long": 0.29162673879442774,
+            "name": "powerful-ceramic-troll",
+            "reported_at": 1658054403307,
+            "rssi": -118.0,
+            "snr": -3.200000047683716,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 499,
+            "id": "112cVyQtzXYoJBHPR6RM1RGgQU2oJaeuuB6UqFS7CuJkgQj6MVKi",
+            "lat": 50.76225001168293,
+            "long": 0.27887369355832,
+            "name": "oblong-bamboo-eagle",
+            "reported_at": 1658054403330,
+            "rssi": -109.0,
+            "snr": 1.2000000476837158,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yDR+gDMVABkDwwgAOwAADMgBmpcW6wAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QA4AAEgAdwACz7F1zZLA5VKPE7nXy4CGFjXAsW/iiz4pFX10gw==",
+    "replay": false,
+    "reported_at": 1658054403307,
+    "type": "uplink",
+    "uuid": "f96dca15-bbb7-4424-8731-c739cb7c3e8d"
+}

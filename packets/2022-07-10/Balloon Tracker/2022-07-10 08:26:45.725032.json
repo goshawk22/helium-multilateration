@@ -1,0 +1,88 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 981003,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 216,
+            "battery": 4.13,
+            "humidity": 36.77,
+            "latitude": 50.89885120981046,
+            "location": "50.89885120981046, -0.08019805432547855",
+            "longitude": -0.08019805432547855,
+            "minutes_lost": 0,
+            "pressure": 100592,
+            "sats": 10,
+            "speed": 9.94,
+            "status": "GPS",
+            "temperature": 33.46,
+            "uptime": 2,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "D0000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 1,
+    "hotspots": [
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 591,
+            "id": "11oso32hKxtoELLnyKwu6xB1uKtmt4kh3EqjDAJk3oU8P3V2skG",
+            "lat": 50.88799963808679,
+            "long": 0.5413713716806882,
+            "name": "great-pine-owl",
+            "reported_at": 1657441603054,
+            "rssi": -116.0,
+            "snr": -3.799999952316284,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 582,
+            "id": "112MUAKkcEbmPysfLCM1Z3FpDio4ZGM8vgkF9yZAAyjUWWTyP2qd",
+            "lat": 50.90340639661653,
+            "long": 0.12426840293182527,
+            "name": "skinny-menthol-shrimp",
+            "reported_at": 1657441603069,
+            "rssi": -105.0,
+            "snr": 9.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yGO0f/FmANgQ1QoAAgAADRIBiPAOXQAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QNAAAEgAAQACCmP7fil6jkw2uSSW++UDIWkvn2UMH1nFi0BhTA==",
+    "replay": false,
+    "reported_at": 1657441603054,
+    "type": "uplink",
+    "uuid": "6e6f11df-fc67-4c4f-96af-d58b108fa86e"
+}

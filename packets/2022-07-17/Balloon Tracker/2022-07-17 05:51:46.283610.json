@@ -1,0 +1,74 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980082,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 43,
+            "battery": 4.45,
+            "humidity": 0,
+            "latitude": 50.943086203520664,
+            "location": "50.943086203520664, -0.05219579054090673",
+            "longitude": -0.05219579054090673,
+            "minutes_lost": 0,
+            "pressure": 0,
+            "sats": 6,
+            "speed": 21.13,
+            "status": "GPS",
+            "temperature": 0,
+            "uptime": 25,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0A000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 49,
+    "hotspots": [
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 950,
+            "id": "112FrdRNXHCkBnMMhjyboMX5DECFA8Ftjofna5L2pq6W6uHJZs5X",
+            "lat": 50.9346882101701,
+            "long": -0.060908874794423966,
+            "name": "teeny-lead-lizard",
+            "reported_at": 1658037102637,
+            "rssi": -116.0,
+            "snr": 0.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yHPPf/Z/ACsi9QYAGQAAAAAAAAAAAAAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QAoAAEgAMQACufGNdHBfwNUy2r0F7HKboAFIl2gvM2ZSfNvk7Q==",
+    "replay": false,
+    "reported_at": 1658037102637,
+    "type": "uplink",
+    "uuid": "cb3ecc6a-2ac1-45de-a263-1bf519a9a80c"
+}

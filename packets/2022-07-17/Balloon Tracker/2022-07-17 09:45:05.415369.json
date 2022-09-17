@@ -1,0 +1,102 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 979794,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 193,
+            "battery": 3.98,
+            "humidity": 46.03,
+            "latitude": 50.804759311959714,
+            "location": "50.804759311959714, 0.19778610454716272",
+            "longitude": 0.19778610454716272,
+            "minutes_lost": 0,
+            "pressure": 13167888,
+            "sats": 11,
+            "speed": 7.46,
+            "status": "GPS",
+            "temperature": 1.03,
+            "uptime": 4,
+            "uv": 2
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0E000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 9,
+    "hotspots": [
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 462,
+            "id": "113uu2bLHUaJv7e7DXiqtyc45dWrDGWGwCaTcqzRvnwv6Dtumuf",
+            "lat": 50.80374271025035,
+            "long": -0.48291347934392775,
+            "name": "ancient-basil-hippo",
+            "reported_at": 1658051102384,
+            "rssi": -123.0,
+            "snr": -9.0,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 460,
+            "id": "112shn4ZJvXtFAUgjPnw53kP7gNrvwHVhqpqyZgBECLkUVJzJtDv",
+            "lat": 50.82414684443364,
+            "long": -0.3044288546122756,
+            "name": "sleepy-carob-kookaburra",
+            "reported_at": 1658051102399,
+            "rssi": -124.0,
+            "snr": -7.0,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 7,
+            "frequency": 868.5,
+            "hold_time": 458,
+            "id": "11A7b7k9zCWyMGhEKGfDnFvjEA4RNugLoGCZdAmhDuX9pQVEP2g",
+            "lat": 50.73406308344212,
+            "long": -0.7872588112019687,
+            "name": "glorious-caramel-yak",
+            "reported_at": 1658051102420,
+            "rssi": -120.0,
+            "snr": -7.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yEFygCQBAMEMxgsABAAAAGfI7RAR+wAC",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QA4AAEgACQACYcUajNskZTcH1XqikdjTNd1BCfJGvt7gUJTcbQ==",
+    "replay": false,
+    "reported_at": 1658051102384,
+    "type": "uplink",
+    "uuid": "9c72d093-ffa2-4e5f-986e-aab3a6d9f848"
+}

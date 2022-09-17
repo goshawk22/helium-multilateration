@@ -1,0 +1,130 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 979728,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 204,
+            "battery": 3.97,
+            "humidity": 0,
+            "latitude": 50.78631644167402,
+            "location": "50.78631644167402, 0.23576618646183078",
+            "longitude": 0.23576618646183078,
+            "minutes_lost": 0,
+            "pressure": 110179,
+            "sats": 11,
+            "speed": 0.62,
+            "status": "GPS",
+            "temperature": 1.04,
+            "uptime": 31,
+            "uv": 2
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0E000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 62,
+    "hotspots": [
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 311,
+            "id": "112p3EX5mtQhNNdwRUiRi4Xb64CcSKuqswszh8DTF5u93PU886Nd",
+            "lat": 50.78096795756845,
+            "long": 0.28645499235146016,
+            "name": "formal-garnet-snail",
+            "reported_at": 1658052692807,
+            "rssi": -121.0,
+            "snr": -7.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 439,
+            "id": "112M3Mp8CDaWJvcFj1tYQJDevjRUsug68KTLgUoa7eveLseRvyTp",
+            "lat": 50.77176836975912,
+            "long": 0.2953283111983449,
+            "name": "blunt-glass-weasel",
+            "reported_at": 1658052692810,
+            "rssi": -124.0,
+            "snr": -7.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 498,
+            "id": "112hu8tTiRZG19SdVTvDFL6RhFm6Z4PMQn8jvTMe7Qc65Mjm98kz",
+            "lat": 50.78167346115187,
+            "long": 0.3120218359375835,
+            "name": "orbiting-orange-ostrich",
+            "reported_at": 1658052692837,
+            "rssi": -118.0,
+            "snr": -4.800000190734863,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 345,
+            "id": "112sRE7Xey1bAyvxBbkeYedivumKWFeVQU8mwxDTBiEtvsxi7mmg",
+            "lat": 50.81942447278326,
+            "long": 0.2702392640081938,
+            "name": "fit-plum-starfish",
+            "reported_at": 1658052692840,
+            "rssi": -123.0,
+            "snr": -5.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 366,
+            "id": "112cVyQtzXYoJBHPR6RM1RGgQU2oJaeuuB6UqFS7CuJkgQj6MVKi",
+            "lat": 50.76225001168293,
+            "long": 0.27887369355832,
+            "name": "oblong-bamboo-eagle",
+            "reported_at": 1658052692870,
+            "rssi": -118.0,
+            "snr": -7.800000190734863,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yDq7gCrrAMwBxQsAHwAAAGgBrmMAAAAC",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QA4AAEgAPgACSXb0XeQzsW5tpO9qpFDZ8ALOo/LeYsSMs5G/Xw==",
+    "replay": false,
+    "reported_at": 1658052692807,
+    "type": "uplink",
+    "uuid": "509617f0-18ef-4904-b21e-297b8f58609e"
+}

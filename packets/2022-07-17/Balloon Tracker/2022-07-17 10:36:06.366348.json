@@ -1,0 +1,74 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 979406,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 45,
+            "battery": 3.96,
+            "humidity": 63.52,
+            "latitude": 50.762788102792996,
+            "location": "50.762788102792996, 0.2734673186222949",
+            "longitude": 0.2734673186222949,
+            "minutes_lost": 0,
+            "pressure": 104457,
+            "sats": 7,
+            "speed": 14.29,
+            "status": "GPS",
+            "temperature": 30.92,
+            "uptime": 55,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0E000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 111,
+    "hotspots": [
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 512,
+            "id": "112XtFKGgbtroKLZyvWcNtKFnPGvBiFeSdKSHqPgnAg4typNqZ1z",
+            "lat": 50.75901421503902,
+            "long": 0.2816995934056403,
+            "name": "brief-blue-shell",
+            "reported_at": 1658054163252,
+            "rssi": -112.0,
+            "snr": -1.2000000476837158,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yDIqgDHIAC0XxAcANwAADBQBmAkY0AAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QA4AAEgAbwACd8byjaeZpRPH+Z3i2ehc5CiYDeOQ2ylTj1c/Qw==",
+    "replay": false,
+    "reported_at": 1658054163252,
+    "type": "uplink",
+    "uuid": "22be57d6-ef76-446f-a096-83ad993b27b7"
+}

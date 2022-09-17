@@ -1,0 +1,88 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980285,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 195,
+            "battery": 4.45,
+            "humidity": 0,
+            "latitude": 50.88962441024927,
+            "location": "50.88962441024927, -0.18473983912110725",
+            "longitude": -0.18473983912110725,
+            "minutes_lost": 0,
+            "pressure": 0,
+            "sats": 11,
+            "speed": 6.22,
+            "status": "GPS",
+            "temperature": 0,
+            "uptime": 20,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "1C000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 40,
+    "hotspots": [
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 1910,
+            "id": "11BRTt1WfGwNq5bajGVRakqpkTAiuE6NKeJ3KPmNa1xsJR9fnwF",
+            "lat": 50.886059097268856,
+            "long": -0.3310149667160276,
+            "name": "amusing-cedar-panther",
+            "reported_at": 1657447595374,
+            "rssi": -119.0,
+            "snr": 0.800000011920929,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 5,
+            "frequency": 868.0999755859375,
+            "hold_time": 2621,
+            "id": "112eBC6agytjKFe8Bb6tAyXPziMAcsSsXuoBkmRu7tHHh6W8pkjr",
+            "lat": 50.82962149542426,
+            "long": -0.2720764257616019,
+            "name": "bubbly-plastic-jay",
+            "reported_at": 1657447595982,
+            "rssi": -124.0,
+            "snr": -6.800000190734863,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yGBYf95eAMMK9QsAFAAAAAAAAAAAAAAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QBwAAEgAKAACn701/Auim+MoLpb7AT42M3PCJDoUqlmbqgmypQ==",
+    "replay": false,
+    "reported_at": 1657447595374,
+    "type": "uplink",
+    "uuid": "0b412bfa-70e6-4baa-940f-cb99ec73d019"
+}

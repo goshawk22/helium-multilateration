@@ -1,0 +1,116 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 979421,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 79,
+            "battery": 3.96,
+            "humidity": 48.38,
+            "latitude": 50.76124315030833,
+            "location": "50.76124315030833, 0.26411177302071565",
+            "longitude": 0.26411177302071565,
+            "minutes_lost": 0,
+            "pressure": 104430,
+            "sats": 9,
+            "speed": 4.35,
+            "status": "GPS",
+            "temperature": 32.68,
+            "uptime": 51,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0E000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 103,
+    "hotspots": [
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 438,
+            "id": "112M3Mp8CDaWJvcFj1tYQJDevjRUsug68KTLgUoa7eveLseRvyTp",
+            "lat": 50.77176836975912,
+            "long": 0.2953283111983449,
+            "name": "blunt-glass-weasel",
+            "reported_at": 1658053923131,
+            "rssi": -122.0,
+            "snr": -5.800000190734863,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 499,
+            "id": "112hu8tTiRZG19SdVTvDFL6RhFm6Z4PMQn8jvTMe7Qc65Mjm98kz",
+            "lat": 50.78167346115187,
+            "long": 0.3120218359375835,
+            "name": "orbiting-orange-ostrich",
+            "reported_at": 1658053923138,
+            "rssi": -123.0,
+            "snr": -5.199999809265137,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 344,
+            "id": "11xNGx1xYRwUExeaxK1RH5bdaKgPhb6UaWDgUXhNsUExubbP8FW",
+            "lat": 50.77414826445896,
+            "long": 0.29162673879442774,
+            "name": "powerful-ceramic-troll",
+            "reported_at": 1658053923174,
+            "rssi": -116.0,
+            "snr": -2.200000047683716,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 332,
+            "id": "112eYYfKQt6gKSXtaKjb9Nmp8rRsDQhASCVcdRZWa2kVWp6chyms",
+            "lat": 50.77907896005572,
+            "long": 0.30297840601749376,
+            "name": "early-topaz-shetland",
+            "reported_at": 1658053923230,
+            "rssi": -115.0,
+            "snr": 1.7999999523162842,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yDGagDAUAE8HxAkAMwAADMQBl+4S5gAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QA4AAEgAZwACugaK68AGbxpswJ02Or84nUnRlfTlt/M5sgKZuA==",
+    "replay": false,
+    "reported_at": 1658053923131,
+    "type": "uplink",
+    "uuid": "8622dc68-2869-4561-a7f7-d9e37b821c71"
+}

@@ -1,0 +1,74 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 981372,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 0,
+            "battery": 4.12,
+            "humidity": 63.24,
+            "last_latitude": -5.36441834242396e-06,
+            "last_location": "-0.00000536441834242396, -0.00001072883668484792",
+            "last_longitude": -1.072883668484792e-05,
+            "minutes_lost": 12,
+            "pressure": 102668,
+            "sats": 0,
+            "speed": 0,
+            "status": "LOST GPS",
+            "temperature": 19.25,
+            "uptime": 12,
+            "uv": 6
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "7E000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 18,
+    "hotspots": [
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 1676,
+            "id": "11iX8q34zEAS43jv2rxxjEGcMrt1qx2iWway9DYhVbbRjmqzpY8",
+            "lat": 50.98872148833227,
+            "long": -0.08276849676855383,
+            "name": "mammoth-strawberry-armadillo",
+            "reported_at": 1657185478686,
+            "rssi": -134.0,
+            "snr": -15.199999809265137,
+            "spreading": "SF9BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "f///f///AAAA1AAADAAMB4UBkQwYtAAG",
+    "payload_size": 24,
+    "port": 6,
+    "raw_packet": "gH4AAEgAEgAGx9Ccu8nLuJH6pAjUeo4D8RswNV1b8X69ZjXKVA==",
+    "replay": true,
+    "reported_at": 1657185478686,
+    "type": "uplink",
+    "uuid": "f5bb1891-4e91-4f9f-840f-11d6f42f9048"
+}

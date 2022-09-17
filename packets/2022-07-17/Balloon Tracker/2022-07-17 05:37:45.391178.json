@@ -1,0 +1,88 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980100,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 56,
+            "battery": 4.05,
+            "humidity": 59.84,
+            "latitude": 50.965316353161114,
+            "location": "50.965316353161114, -0.08558393034837763",
+            "longitude": -0.08558393034837763,
+            "minutes_lost": 0,
+            "pressure": 96459,
+            "sats": 4,
+            "speed": 12.43,
+            "status": "GPS",
+            "temperature": 637.57,
+            "uptime": 11,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "0A000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 21,
+    "hotspots": [
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 489,
+            "id": "11rDNbofUb5WNfy5h63MGMx8fVx568RSWTziT7coekX5rsoaCqS",
+            "lat": 50.964971763684844,
+            "long": -0.08287250394690128,
+            "name": "mythical-jade-walrus",
+            "reported_at": 1658036262344,
+            "rssi": -96.0,
+            "snr": 11.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 767,
+            "id": "11bg88bcWc3w96VhQGeyxqFwWm3UZzwXhpJgtdEMXypEDSjVCpq",
+            "lat": 50.96528854382112,
+            "long": -0.08639601886252704,
+            "name": "soft-berry-chimpanzee",
+            "reported_at": 1658036262623,
+            "rssi": -93.0,
+            "snr": 1.2000000476837158,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yHvnf/BrADgUzQQACwAA+Q0BeMsXYAAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QAoAAEgAFQACtI+VIib3S4s8QzbynnM7RARdvvJbDx/GvEgqig==",
+    "replay": false,
+    "reported_at": 1658036262344,
+    "type": "uplink",
+    "uuid": "7e08a317-6ccd-4e64-a15f-21867c61ca20"
+}

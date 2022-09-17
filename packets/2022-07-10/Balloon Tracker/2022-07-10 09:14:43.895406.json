@@ -1,0 +1,102 @@
+{
+    "app_eui": "6081F9687EB91108",
+    "dc": {
+        "balance": 980752,
+        "nonce": 2
+    },
+    "decoded": {
+        "payload": {
+            "accuracy": 2.5,
+            "altitude": 297,
+            "battery": 4.1,
+            "humidity": 34.85,
+            "latitude": 50.89007502139063,
+            "location": "50.89007502139063, -0.18302322524925785",
+            "longitude": -0.18302322524925785,
+            "minutes_lost": 0,
+            "pressure": 7368580,
+            "sats": 7,
+            "speed": 0,
+            "status": "GPS",
+            "temperature": 35.29,
+            "uptime": 50,
+            "uv": 0
+        },
+        "status": "success"
+    },
+    "dev_eui": "6081F91F0E7EAD88",
+    "devaddr": "D0000048",
+    "downlink_url": "https://console.helium.com/api/v1/down/3e7bdd5a-ae74-440d-8e14-296d96e02721/lou7K8knREIIC6XYjpWeGIkwzQPY4bj_/f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "fcnt": 97,
+    "hotspots": [
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 483,
+            "id": "11uwNnsJf3TpVkwQPSyY6jZKQfBvP8FxCwSjXB4fzmZ864AHkY4",
+            "lat": 50.86415715040982,
+            "long": -0.12280108041390612,
+            "name": "special-topaz-dinosaur",
+            "reported_at": 1657444481266,
+            "rssi": -102.0,
+            "snr": -6.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 650,
+            "id": "112shn4ZJvXtFAUgjPnw53kP7gNrvwHVhqpqyZgBECLkUVJzJtDv",
+            "lat": 50.82414684443364,
+            "long": -0.3044288546122756,
+            "name": "sleepy-carob-kookaburra",
+            "reported_at": 1657444481311,
+            "rssi": -121.0,
+            "snr": -5.800000190734863,
+            "spreading": "SF7BW125",
+            "status": "success"
+        },
+        {
+            "channel": 6,
+            "frequency": 868.2999877929688,
+            "hold_time": 509,
+            "id": "112aqHr8b11GMgxzKCoZ9ks2mpHbhAteX1ecgodxdoNUcQEQ6Pq7",
+            "lat": 50.84879686715709,
+            "long": -0.21521311253660447,
+            "name": "droll-wintergreen-pigeon",
+            "reported_at": 1657444481352,
+            "rssi": -109.0,
+            "snr": -1.5,
+            "spreading": "SF7BW125",
+            "status": "success"
+        }
+    ],
+    "id": "f49b6a32-1d4c-4b0a-b08c-405826f629d4",
+    "metadata": {
+        "adr_allowed": false,
+        "cf_list_enabled": false,
+        "labels": [
+            {
+                "id": "0095bae0-cf3d-448d-ab8c-a050ae632e2b",
+                "name": "Tracker Label",
+                "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8"
+            }
+        ],
+        "multi_buy": 9999,
+        "organization_id": "864fea78-44c3-40ff-bf06-37902ae7bae8",
+        "preferred_hotspots": [],
+        "rx_delay": 1,
+        "rx_delay_actual": 1,
+        "rx_delay_state": "rx_delay_established"
+    },
+    "name": "Balloon Tracker",
+    "payload": "yGCCf96uASkA0gcAMgAADclwb4QNnQAA",
+    "payload_size": 24,
+    "port": 2,
+    "raw_packet": "QNAAAEgAYQACpxFqFhJ+fnNNO/nW0DDPrLg9V9TozMTBWIzGVA==",
+    "replay": false,
+    "reported_at": 1657444481266,
+    "type": "uplink",
+    "uuid": "e6242911-1fe4-48d1-8b65-5a09d14c1ce9"
+}
